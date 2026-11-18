@@ -236,12 +236,39 @@ function App() {
               <div className="section-label"><span>05 / CONTACT</span><span className="label-line" /></div>
               <p className="contact-kicker">HAVE A PROJECT, ROLE OR IDEA?</p>
               <h2>Let's make<br /><span className="muted-word">something matter.</span></h2>
-              <a className="contact-email" href="mailto:your.email@example.com">your.email@example.com <ArrowUpRight size={22} /></a>
-              <div className="social-links">
-                <a href="https://github.com/" target="_blank" rel="noreferrer"><Github size={17} /> GitHub <ExternalLink size={12} /></a>
-                <a href="https://linkedin.com/" target="_blank" rel="noreferrer"><Linkedin size={17} /> LinkedIn <ExternalLink size={12} /></a>
-                <a href="https://instagram.com/" target="_blank" rel="noreferrer"><Instagram size={17} /> Instagram <ExternalLink size={12} /></a>
-              </div>
+              
+<a
+  className="contact-email"
+  href="mailto:dhivakar2355@gmail.com"
+>
+  dhivakar2355@gmail.com <ArrowUpRight size={22} />
+</a>
+
+<div className="social-links">
+  <a href="https://github.com/dhiva2355" target="_blank" rel="noreferrer">
+    <Github size={17} /> GitHub <ExternalLink size={12} />
+  </a>
+
+  <a href="https://www.linkedin.com/in/dhivakar-s-327a69348/" target="_blank" rel="noreferrer">
+    <Linkedin size={17} /> LinkedIn <ExternalLink size={12} />
+  </a>
+
+  <a href="https://www.instagram.com/dhixva._/" target="_blank" rel="noreferrer">
+    <Instagram size={17} /> Instagram <ExternalLink size={12} />
+  </a>
+
+  <a href="https://wa.me/917010287232" target="_blank" rel="noreferrer">
+    <Mail size={17} /> WhatsApp <ExternalLink size={12} />
+  </a>
+
+  <a
+    href="https://drive.google.com/file/d/1W2QGCDpofbfz2wTD2qJoIfWs_4gywNjA/view"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <ArrowDown size={17} /> Resume <ExternalLink size={12} />
+  </a>
+</div>  
             </Reveal>
           </div>
         </section>
