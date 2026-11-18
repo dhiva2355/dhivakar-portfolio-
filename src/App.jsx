@@ -109,7 +109,7 @@ function App() {
             <div className="portrait-frame">
               {/* Replace /profile.jpg with your own photo in the public folder. */}
               <img
-                src="/profile.jpg"
+                src="./profile.jpg"
                 alt="Dhivakar portrait"
                 onError={(event) => { event.currentTarget.style.display = 'none' }}
               />
