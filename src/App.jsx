@@ -109,10 +109,10 @@ function App() {
           <motion.div className="portrait-wrap" initial={{ opacity: 0, scale: 0.94, rotate: 2 }} animate={{ opacity: 1, scale: 1, rotate: 0 }} transition={{ duration: 1, delay: 0.35 }}>
             <div className="portrait-frame">
               {/* Replace /profile.jpg with your own photo in the public folder. */}
-              <img
-                src={profile.jpg}
-                alt="Dhivakar portrait"
-              />
+<img
+  src={profilePic}
+  alt="Dhivakar portrait"
+/>
               <div className="portrait-placeholder">
                 <span className="placeholder-initials">D.</span>
                 <span>YOUR PHOTO HERE</span>
