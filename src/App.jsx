@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import profilePic from './profile.jpg'
 import { motion } from 'framer-motion'
 import {
   ArrowDown, ArrowRight, ArrowUpRight, Github, Linkedin, Instagram,
@@ -109,9 +110,8 @@ function App() {
             <div className="portrait-frame">
               {/* Replace /profile.jpg with your own photo in the public folder. */}
               <img
-                src="./profile.jpg"
+                src={profile.jpg}
                 alt="Dhivakar portrait"
-                onError={(event) => { event.currentTarget.style.display = 'none' }}
               />
               <div className="portrait-placeholder">
                 <span className="placeholder-initials">D.</span>
